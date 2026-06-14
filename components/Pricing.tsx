@@ -47,7 +47,7 @@ export default function Pricing() {
   return (
     <section
       id="pricing"
-      className="py-24 bg-gradient-to-br from-slate-50 to-white dark:from-zinc-900 dark:to-zinc-950"
+      className="py-24 bg-linear-to-br from-slate-50 to-white dark:from-zinc-900 dark:to-zinc-950"
     >
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-center text-4xl font-bold mb-4">
@@ -65,7 +65,7 @@ export default function Pricing() {
                 flex flex-col items-center p-8 transition-all
                 border-2
                 ${plan.highlight
-                  ? "border-black/80 shadow-xl scale-105 bg-gradient-to-b from-zinc-50 to-white dark:from-zinc-900 dark:to-zinc-950"
+                  ? "border-black/80 shadow-xl scale-105 bg-linear-to-b from-zinc-50 to-white dark:from-zinc-900 dark:to-zinc-950"
                   : "border-muted"}
                 hover:shadow-2xl hover:scale-105
               `}
