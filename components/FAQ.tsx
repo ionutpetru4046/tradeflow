@@ -53,10 +53,10 @@ export default function FAQ() {
   }
 
   return (
-    <section id="faq" className="relative py-28 bg-gradient-to-br from-blue-50/60 via-white to-pink-50/60 dark:from-zinc-950/80 dark:via-zinc-900/70 dark:to-pink-950/40 overflow-hidden">
+    <section id="faq" className="relative py-28 bg-linear-to-br from-blue-50/60 via-white to-pink-50/60 dark:from-zinc-950/80 dark:via-zinc-900/70 dark:to-pink-950/40 overflow-hidden">
       {/* Decorative blurred backgrounds */}
       <div
-        className="pointer-events-none absolute -top-32 left-1/2 -translate-x-1/2 w-[36rem] h-[36rem] bg-gradient-to-r from-blue-400/30 via-purple-300/30 to-pink-300/40 opacity-40 blur-3xl z-0"
+        className="pointer-events-none absolute -top-32 left-1/2 -translate-x-1/2 w-xl h-144 bg-linear-to-r from-blue-400/30 via-purple-300/30 to-pink-300/40 opacity-40 blur-3xl z-0"
         aria-hidden="true"
       />
       <div
