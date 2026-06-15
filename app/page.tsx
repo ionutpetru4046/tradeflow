@@ -4,6 +4,8 @@ import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <Features />
       <Pricing />
       <CTA />
+      <FAQ />
+      <Contact />
       <Footer />
     </>
   );
