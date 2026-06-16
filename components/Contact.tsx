@@ -40,7 +40,7 @@ export default function Contact() {
       <div className="relative z-10 w-full max-w-xl mx-auto">
         <div className="flex flex-col items-center mb-10">
           <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-gradient-to-r from-primary/20 to-teal-200/20 text-sm font-semibold text-primary dark:text-teal-300 dark:from-primary/40 dark:to-teal-400/20 mb-4 backdrop-blur">
-            We're here to help
+            We&apos;re here to help
             <svg className="w-4 h-4 text-primary dark:text-teal-300" fill="none" stroke="currentColor" strokeWidth={2.2} viewBox="0 0 24 24">
               <path d="M8 13l3 3L16 9" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
