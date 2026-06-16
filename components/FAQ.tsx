@@ -60,12 +60,12 @@ export default function FAQ() {
         aria-hidden="true"
       />
       <div
-        className="pointer-events-none absolute bottom-[-10%] right-[-8%] w-[28rem] h-[28rem] rounded-full bg-gradient-to-br from-pink-300/25 via-yellow-200/20 to-blue-200/25 opacity-30 blur-[100px] z-0"
+        className="pointer-events-none absolute bottom-[-10%] right-[-8%] w-md h-112 rounded-full bg-linear-to-br from-pink-300/25 via-yellow-200/20 to-blue-200/25 opacity-30 blur-[100px] z-0"
         aria-hidden="true"
       />
 
       <div className="relative max-w-2xl mx-auto px-6 z-10">
-        <h2 className="text-4xl sm:text-5xl font-extrabold mb-8 text-center bg-gradient-to-r from-blue-700 via-purple-700 to-pink-500 bg-clip-text text-transparent drop-shadow-sm">
+        <h2 className="text-4xl sm:text-5xl font-extrabold mb-8 text-center bg-linear-to-r from-blue-700 via-purple-700 to-pink-500 bg-clip-text text-transparent drop-shadow-sm">
           Frequently Asked Questions
         </h2>
         <div className="space-y-4 mt-10">
