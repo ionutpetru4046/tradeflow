@@ -34,12 +34,12 @@ export default function Contact() {
       {/* Stylish blurred background shapes */}
       <div aria-hidden="true" className="absolute z-0 inset-0 pointer-events-none">
         <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[60vw] max-w-3xl h-96 bg-gradient-to-r from-blue-300/25 via-purple-200/25 to-pink-200/30 opacity-50 blur-3xl rounded-full" />
-        <div className="absolute bottom-[-6rem] right-[-7vw] w-80 h-80 bg-gradient-to-br from-pink-300/25 via-yellow-200/20 to-blue-200/20 rounded-full blur-[120px] opacity-40" />
+        <div className="absolute bottom-[-6rem] right-[-7vw] w-80 h-80 bg-linear-to-br from-pink-300/25 via-yellow-200/20 to-blue-200/20 rounded-full blur-[120px] opacity-40" />
       </div>
 
       <div className="relative z-10 w-full max-w-xl mx-auto">
         <div className="flex flex-col items-center mb-10">
-          <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-gradient-to-r from-primary/20 to-teal-200/20 text-sm font-semibold text-primary dark:text-teal-300 dark:from-primary/40 dark:to-teal-400/20 mb-4 backdrop-blur">
+          <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-linear-to-r from-primary/20 to-teal-200/20 text-sm font-semibold text-primary dark:text-teal-300 dark:from-primary/40 dark:to-teal-400/20 mb-4 backdrop-blur">
             We&apos;re here to help
             <svg className="w-4 h-4 text-primary dark:text-teal-300" fill="none" stroke="currentColor" strokeWidth={2.2} viewBox="0 0 24 24">
               <path d="M8 13l3 3L16 9" strokeLinecap="round" strokeLinejoin="round" />
