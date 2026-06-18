@@ -45,7 +45,7 @@ export default function Contact() {
               <path d="M8 13l3 3L16 9" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </span>
-          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-center bg-gradient-to-r from-primary via-purple-700 to-teal-400 bg-clip-text text-transparent mb-3 drop-shadow">
+          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-center bg-linear-to-r from-primary via-purple-700 to-teal-400 bg-clip-text text-transparent mb-3 drop-shadow">
             Get in Touch
           </h1>
           <p className="text-muted-foreground text-center max-w-xl text-lg mt-2">
