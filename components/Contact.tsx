@@ -33,8 +33,8 @@ export default function Contact() {
     <section className="relative min-h-screen flex items-center justify-center px-4 py-24 bg-gradient-to-br from-blue-50 via-white to-pink-50 dark:from-zinc-950 dark:via-zinc-900 dark:to-pink-950">
       {/* Stylish blurred background shapes */}
       <div aria-hidden="true" className="absolute z-0 inset-0 pointer-events-none">
-        <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[60vw] max-w-3xl h-96 bg-gradient-to-r from-blue-300/25 via-purple-200/25 to-pink-200/30 opacity-50 blur-3xl rounded-full" />
-        <div className="absolute bottom-[-6rem] right-[-7vw] w-80 h-80 bg-linear-to-br from-pink-300/25 via-yellow-200/20 to-blue-200/20 rounded-full blur-[120px] opacity-40" />
+        <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[60vw] max-w-3xl h-96 bg-linear-to-r from-blue-300/25 via-purple-200/25 to-pink-200/30 opacity-50 blur-3xl rounded-full" />
+        <div className="absolute -bottom-24 right-[-7vw] w-80 h-80 bg-linear-to-br from-pink-300/25 via-yellow-200/20 to-blue-200/20 rounded-full blur-[120px] opacity-40" />
       </div>
 
       <div className="relative z-10 w-full max-w-xl mx-auto">
