@@ -60,12 +60,12 @@ export default function Contact() {
                 <circle cx="32" cy="32" r="32" fill="#16a34a" opacity="0.11" />
                 <path d="M22 34l7 7 13-15" stroke="#16a34a" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-              <h2 className="text-2xl sm:text-3xl font-bold mb-3 bg-gradient-to-r from-primary to-teal-400 bg-clip-text text-transparent">
+              <h2 className="text-2xl sm:text-3xl font-bold mb-3 bg-linear-to-r from-primary to-teal-400 bg-clip-text text-transparent">
                 Message Sent!
               </h2>
               <p className="text-center text-muted-foreground mb-4">We appreciate your interest.<br />You’ll hear from us soon.</p>
               <button
-                className="mt-4 text-sm font-semibold px-6 py-2 bg-gradient-to-r from-primary to-teal-400 text-white rounded-full shadow hover:from-primary/80 hover:to-teal-400/80 focus:outline-none focus:ring-2 focus:ring-primary/70 transition"
+                className="mt-4 text-sm font-semibold px-6 py-2 bg-linear-to-r from-primary to-teal-400 text-white rounded-full shadow hover:from-primary/80 hover:to-teal-400/80 focus:outline-none focus:ring-2 focus:ring-primary/70 transition"
                 onClick={() => setSubmitted(false)}
                 type="button"
               >
