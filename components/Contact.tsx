@@ -30,7 +30,7 @@ export default function Contact() {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-24 bg-gradient-to-br from-blue-50 via-white to-pink-50 dark:from-zinc-950 dark:via-zinc-900 dark:to-pink-950">
+    <section className="relative min-h-screen flex items-center justify-center px-4 py-24 bg-linear-to-br from-blue-50 via-white to-pink-50 dark:from-zinc-950 dark:via-zinc-900 dark:to-pink-950">
       {/* Stylish blurred background shapes */}
       <div aria-hidden="true" className="absolute z-0 inset-0 pointer-events-none">
         <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[60vw] max-w-3xl h-96 bg-linear-to-r from-blue-300/25 via-purple-200/25 to-pink-200/30 opacity-50 blur-3xl rounded-full" />
