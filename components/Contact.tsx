@@ -182,7 +182,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={loading}
-                className="mt-2 flex items-center justify-center gap-2.5 bg-gradient-to-r from-primary to-teal-400 text-white text-lg font-bold px-8 py-3 rounded-full shadow-lg hover:from-primary/90 hover:to-teal-400/80 focus:outline-none focus:ring-2 focus:ring-primary/80 transition-all duration-200"
+                className="mt-2 flex items-center justify-center gap-2.5 bg-linear-to-r from-primary to-teal-400 text-white text-lg font-bold px-8 py-3 rounded-full shadow-lg hover:from-primary/90 hover:to-teal-400/80 focus:outline-none focus:ring-2 focus:ring-primary/80 transition-all duration-200"
                 aria-busy={loading}
               >
                 {loading ? (
