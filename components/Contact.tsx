@@ -32,19 +32,19 @@ export default function Contact() {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-24 bg-linear-to-br from-blue-50 via-white to-pink-50 dark:from-zinc-950 dark:via-zinc-900 dark:to-pink-950">
+    <section className="relative min-h-screen flex items-center justify-center px-2 sm:px-4 py-12 sm:py-16 md:py-24 bg-linear-to-br from-blue-50 via-white to-pink-50 dark:from-zinc-950 dark:via-zinc-900 dark:to-pink-950">
       {/* Stylish blurred background shapes */}
       <div
         aria-hidden="true"
         className="absolute z-0 inset-0 pointer-events-none"
       >
-        <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[60vw] max-w-3xl h-96 bg-linear-to-r from-blue-300/25 via-purple-200/25 to-pink-200/30 opacity-50 blur-3xl rounded-full" />
-        <div className="absolute -bottom-24 right-[-7vw] w-80 h-80 bg-linear-to-br from-pink-300/25 via-yellow-200/20 to-blue-200/20 rounded-full blur-[120px] opacity-40" />
+        <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[85vw] sm:w-[70vw] md:w-[60vw] max-w-4xl h-56 sm:h-96 bg-linear-to-r from-blue-300/25 via-purple-200/25 to-pink-200/30 opacity-50 blur-3xl rounded-full" />
+        <div className="absolute -bottom-16 right-0 sm:right-[-7vw] w-56 sm:w-80 h-56 sm:h-80 bg-linear-to-br from-pink-300/25 via-yellow-200/20 to-blue-200/20 rounded-full blur-[90px] sm:blur-[120px] opacity-40" />
       </div>
 
-      <div className="relative z-10 w-full max-w-xl mx-auto">
-        <div className="flex flex-col items-center mb-10">
-          <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-linear-to-r from-primary/20 to-teal-200/20 text-sm font-semibold text-primary dark:text-teal-300 dark:from-primary/40 dark:to-teal-400/20 mb-4 backdrop-blur">
+      <div className="relative z-10 w-full max-w-lg sm:max-w-xl md:max-w-2xl mx-auto">
+        <div className="flex flex-col items-center mb-6 sm:mb-10 px-2">
+          <span className="inline-flex items-center gap-2 px-3 sm:px-4 py-1 rounded-full bg-linear-to-r from-primary/20 to-teal-200/20 text-xs sm:text-sm font-semibold text-primary dark:text-teal-300 dark:from-primary/40 dark:to-teal-400/20 mb-3 sm:mb-4 backdrop-blur">
             We&apos;re here to help
             <svg
               className="w-4 h-4 text-primary dark:text-teal-300"
@@ -60,20 +60,20 @@ export default function Contact() {
               />
             </svg>
           </span>
-          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-center bg-linear-to-r from-primary via-purple-700 to-teal-400 bg-clip-text text-transparent mb-3 drop-shadow">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-center bg-linear-to-r from-primary via-purple-700 to-teal-400 bg-clip-text text-transparent mb-2 sm:mb-3 drop-shadow">
             Get in Touch
           </h1>
-          <p className="text-muted-foreground text-center max-w-xl text-lg mt-2">
+          <p className="text-muted-foreground text-center max-w-lg sm:max-w-xl text-base sm:text-lg mt-1 sm:mt-2">
             Let us know how we can help your business. We aim to reply within
             one business day.
           </p>
         </div>
 
-        <div className="relative bg-white/90 dark:bg-zinc-900/95 shadow-xl border border-zinc-50 dark:border-zinc-800 rounded-2xl w-full px-8 sm:px-12 py-10 sm:py-14 backdrop-blur-lg transition-all">
+        <div className="relative bg-white/90 dark:bg-zinc-900/95 shadow-xl border border-zinc-50 dark:border-zinc-800 rounded-2xl w-full px-4 sm:px-8 md:px-12 py-8 sm:py-10 md:py-14 backdrop-blur-lg transition-all">
           {submitted ? (
-            <div className="flex flex-col items-center py-12 animate-in fade-in slide-in-from-top-4">
+            <div className="flex flex-col items-center py-8 sm:py-12 animate-in fade-in slide-in-from-top-4 px-2">
               <svg
-                className="mb-5 w-16 h-16 text-green-600"
+                className="mb-4 sm:mb-5 w-12 h-12 sm:w-16 sm:h-16 text-green-600"
                 viewBox="0 0 64 64"
                 fill="none"
               >
@@ -86,16 +86,16 @@ export default function Contact() {
                   strokeLinejoin="round"
                 />
               </svg>
-              <h2 className="text-2xl sm:text-3xl font-bold mb-3 bg-linear-to-r from-primary to-teal-400 bg-clip-text text-transparent">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-3 bg-linear-to-r from-primary to-teal-400 bg-clip-text text-transparent">
                 Message Sent!
               </h2>
-              <p className="text-center text-muted-foreground mb-4">
+              <p className="text-center text-muted-foreground mb-3 sm:mb-4 text-base sm:text-lg">
                 We appreciate your interest.
                 <br />
                 You’ll hear from us soon.
               </p>
               <button
-                className="mt-4 text-sm font-semibold px-6 py-2 bg-linear-to-r from-primary to-teal-400 text-white rounded-full shadow hover:from-primary/80 hover:to-teal-400/80 focus:outline-none focus:ring-2 focus:ring-primary/70 transition"
+                className="mt-3 sm:mt-4 text-xs sm:text-sm font-semibold px-4 sm:px-6 py-2 bg-linear-to-r from-primary to-teal-400 text-white rounded-full shadow hover:from-primary/80 hover:to-teal-400/80 focus:outline-none focus:ring-2 focus:ring-primary/70 transition"
                 onClick={() => setSubmitted(false)}
                 type="button"
               >
@@ -104,7 +104,7 @@ export default function Contact() {
             </div>
           ) : (
             <form
-              className="flex flex-col gap-7 animate-in fade-in slide-in-from-bottom-8"
+              className="flex flex-col gap-5 sm:gap-7 animate-in fade-in slide-in-from-bottom-8"
               onSubmit={handleSubmit}
               autoComplete="off"
               aria-label="Contact Form"
@@ -124,7 +124,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   minLength={2}
-                  className="w-full px-5 py-3 text-base rounded-xl border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-primary/70 transition placeholder:text-zinc-400 dark:placeholder:text-zinc-600"
+                  className="w-full px-4 sm:px-5 py-2.5 sm:py-3 text-base rounded-xl border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-primary/70 transition placeholder:text-zinc-400 dark:placeholder:text-zinc-600"
                   placeholder="Your full name"
                   disabled={loading}
                   spellCheck="false"
@@ -147,7 +147,7 @@ export default function Contact() {
                   value={form.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-5 py-3 text-base rounded-xl border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-primary/70 transition placeholder:text-zinc-400 dark:placeholder:text-zinc-600"
+                  className="w-full px-4 sm:px-5 py-2.5 sm:py-3 text-base rounded-xl border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-primary/70 transition placeholder:text-zinc-400 dark:placeholder:text-zinc-600"
                   placeholder="you@company.com"
                   disabled={loading}
                   spellCheck="false"
@@ -169,8 +169,8 @@ export default function Contact() {
                   value={form.message}
                   onChange={handleChange}
                   required
-                  rows={5}
-                  className="w-full px-5 py-3 text-base rounded-xl border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-primary/70 transition resize-none placeholder:text-zinc-400 dark:placeholder:text-zinc-600"
+                  rows={4}
+                  className="w-full px-4 sm:px-5 py-2.5 sm:py-3 text-base rounded-xl border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-primary/70 transition resize-none placeholder:text-zinc-400 dark:placeholder:text-zinc-600 min-h-[80px] sm:min-h-[120px]"
                   placeholder="Tell us how we can help you..."
                   disabled={loading}
                   spellCheck="false"
@@ -182,13 +182,13 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={loading}
-                className="mt-2 flex items-center justify-center gap-2.5 bg-linear-to-r from-primary to-teal-400 text-white text-lg font-bold px-8 py-3 rounded-full shadow-lg hover:from-primary/90 hover:to-teal-400/80 focus:outline-none focus:ring-2 focus:ring-primary/80 transition-all duration-200"
+                className="mt-2 flex items-center justify-center gap-2.5 bg-linear-to-r from-primary to-teal-400 text-white text-base sm:text-lg font-bold px-5 sm:px-8 py-2.5 sm:py-3 rounded-full shadow-lg hover:from-primary/90 hover:to-teal-400/80 focus:outline-none focus:ring-2 focus:ring-primary/80 transition-all duration-200"
                 aria-busy={loading}
               >
                 {loading ? (
                   <>
                     <svg
-                      className="animate-spin h-6 w-6 text-white"
+                      className="animate-spin h-5 w-5 sm:h-6 sm:w-6 text-white"
                       viewBox="0 0 24 24"
                     >
                       <circle
@@ -206,12 +206,12 @@ export default function Contact() {
                         d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
                       />
                     </svg>
-                    Sending...
+                    <span className="sr-only sm:not-sr-only">Sending...</span>
                   </>
                 ) : (
                   <>
                     <svg
-                      className="h-6 w-6"
+                      className="h-5 w-5 sm:h-6 sm:w-6"
                       fill="none"
                       stroke="currentColor"
                       strokeWidth={2.2}
@@ -229,10 +229,10 @@ export default function Contact() {
               </button>
             </form>
           )}
-          <div className="border-t border-zinc-100 dark:border-zinc-800 mt-11 pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-sm text-muted-foreground transition">
-            <span className="flex items-center gap-1">
+          <div className="border-t border-zinc-100 dark:border-zinc-800 mt-8 sm:mt-11 pt-6 flex flex-col gap-2 sm:gap-3 md:flex-row md:items-center md:justify-between text-xs sm:text-sm text-muted-foreground transition">
+            <span className="flex items-center gap-1 whitespace-pre-line">
               <svg
-                className="w-5 h-5 mr-1 text-primary"
+                className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-primary"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth={2}
@@ -252,12 +252,12 @@ export default function Contact() {
               Email:&nbsp;
               <a
                 href="mailto:team@tradeflow.app"
-                className="underline underline-offset-2 decoration-primary hover:text-primary transition"
+                className="underline underline-offset-2 decoration-primary hover:text-primary transition break-words"
               >
                 team@tradeflow.app
               </a>
             </span>
-            <span>
+            <span className="whitespace-pre-line text-center sm:text-left">
               <span className="font-semibold text-zinc-900 dark:text-zinc-100">
                 TradeFlow, Inc.
               </span>{" "}

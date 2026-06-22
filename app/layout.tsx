@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Inter } from "next/font/google";
-import "./globals.css";
 import { cn } from "@/lib/utils";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const geistSans = Geist({
@@ -49,6 +49,11 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: "#15192C",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  minimumScale: 1,
+  userScalable: true,
 };
 
 export default function RootLayout({
@@ -61,16 +66,44 @@ export default function RootLayout({
       lang="en"
       className={cn(
         "h-full",
+        "min-h-full",
+        "w-full",
         "antialiased",
         geistSans.variable,
         "font-sans",
         inter.variable,
         "scroll-smooth",
       )}
+      style={{
+        width: "100%",
+        minHeight: "100%",
+        height: "100%",
+        boxSizing: "border-box",
+      }}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col bg-background text-foreground selection:bg-blue-200 dark:selection:bg-pink-400/80">
-        {children}
+      <body
+        className={cn(
+          "min-h-full",
+          "flex",
+          "flex-col",
+          "bg-background",
+          "text-foreground",
+          "selection:bg-blue-200",
+          "dark:selection:bg-pink-400/80",
+          "w-full"
+        )}
+        style={{
+          width: "100%",
+          minHeight: "100vh", // ensures on mobile the body expands
+          display: "flex",
+          flexDirection: "column",
+          boxSizing: "border-box",
+        }}
+      >
+        <main className="flex-1 flex flex-col w-full">
+          {children}
+        </main>
       </body>
     </html>
   );
