@@ -16,7 +16,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-10 flex flex-col-reverse lg:flex-row items-center gap-16">
         {/* Left side - Content */}
         <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
-          <span className="inline-block mb-4 px-4 py-1 rounded-full bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white font-semibold text-xs tracking-wide shadow-lg">
+          <span className="inline-block mb-4 px-4 py-1 rounded-full bg-linear-to-r from-blue-600 via-purple-600 to-pink-600 text-white font-semibold text-xs tracking-wide shadow-lg">
             ALL-IN-ONE TOOL FOR TRADE BUSINESSES
           </span>
           <h1 className="text-4xl xs:text-5xl sm:text-6xl font-extrabold tracking-tight leading-tight bg-gradient-to-r from-blue-700 via-purple-700 to-pink-600 bg-clip-text text-transparent mb-7">
