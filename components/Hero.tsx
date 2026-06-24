@@ -29,7 +29,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 w-full sm:w-auto justify-center lg:justify-start">
             <Link
               href="#pricing"
-              className="bg-gradient-to-r from-blue-700 via-purple-700 to-pink-600 text-white px-9 py-4 rounded-xl text-lg font-bold shadow-xl hover:brightness-90 active:scale-95 transition-all duration-150 w-full sm:w-auto text-center ring-2 ring-transparent hover:ring-pink-300 focus-visible:outline-none"
+              className="bg-linear-to-r from-blue-700 via-purple-700 to-pink-600 text-white px-9 py-4 rounded-xl text-lg font-bold shadow-xl hover:brightness-90 active:scale-95 transition-all duration-150 w-full sm:w-auto text-center ring-2 ring-transparent hover:ring-pink-300 focus-visible:outline-none"
             >
               Start Free Trial
             </Link>
