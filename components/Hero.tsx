@@ -9,7 +9,7 @@ export default function Hero() {
         aria-hidden="true"
       />
       <div
-        className="pointer-events-none absolute -bottom-56 -right-48 z-0 blur-3xl opacity-30 w-[28rem] h-[28rem] bg-gradient-to-bl from-pink-500 via-yellow-300 to-blue-500"
+        className="pointer-events-none absolute -bottom-56 -right-48 z-0 blur-3xl opacity-30 w-md h-[28rem] bg-gradient-to-bl from-pink-500 via-yellow-300 to-blue-500"
         aria-hidden="true"
       />
 
