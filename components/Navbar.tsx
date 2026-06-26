@@ -54,7 +54,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/demo"
-            className="px-3 xs:px-4 py-2 rounded-lg border border-black/80 dark:border-white/50 hover:bg-black hover:text-white dark:border-zinc-400 dark:hover:bg-zinc-700 transition-colors"
+            className="px-3 xs:px-4 py-2 rounded-lg border border-black/80 dark:border-white/50 hover:bg-black hover:text-white dark:hover:bg-zinc-700 transition-colors"
           >
             View Demo
           </Link>
