@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="relative overflow-hidden pt-32 pb-20 sm:pt-40 sm:pb-32 bg-gradient-to-br from-blue-100 via-white to-pink-100 dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950">
       {/* Blurred gradient blobs */}
       <div
-        className="pointer-events-none absolute -top-48 -left-40 z-0 blur-3xl opacity-40 w-[32rem] h-[32rem] bg-gradient-to-br from-blue-400 via-purple-400 to-pink-400"
+        className="pointer-events-none absolute -top-48 -left-40 z-0 blur-3xl opacity-40 w-lg h-[32rem] bg-gradient-to-br from-blue-400 via-purple-400 to-pink-400"
         aria-hidden="true"
       />
       <div
