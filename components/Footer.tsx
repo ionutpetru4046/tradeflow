@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between gap-8 md:gap-5">
         {/* Top Row: Logo and Copyright */}
         <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-3 flex-1">
-          <span className="text-2xl font-bold tracking-tight bg-gradient-to-r from-blue-700 via-purple-700 to-pink-500 bg-clip-text text-transparent select-none">
+          <span className="text-2xl font-bold tracking-tight bg-linear-to-r from-blue-700 via-purple-700 to-pink-500 bg-clip-text text-transparent select-none">
             TradeFlow
           </span>
           <span className="text-muted-foreground text-sm sm:ml-3">
